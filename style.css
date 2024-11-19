@@ -1,0 +1,230 @@
+.bodyindex {
+	text-align: center;
+	font-family: "Protest Guerrilla", sans-serif;
+	background-image: url(fundoindex.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	}
+.bodygeopla {
+	text-align: center;
+	background-image: url(geoplan/fundogeoplan.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bodygeoesp {
+	text-align: center;
+	background-image: url(geoesp/fundogeoesp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.bodyduv {
+	text-align: center;
+	background-image: url(fundoduv.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 	{
+	text-shadow: 2px 2px #FF0000;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	}
+
+h2 	{
+	font-weight: bold;	
+	font-size: 40px;
+	font-style: italic;
+	text-shadow: 2px 2px #ff00c8;
+	}
+
+.materias a {
+	text-shadow: 2px 2px #ff9100;
+
+}
+
+.titulo-principal:first-letter {
+	font-size: 1.5em;
+	color: red;
+}
+
+.titulo-principal:before {
+	content: "\2211  " 
+}
+
+.home {
+	background-color: white;
+}
+.geoplana {
+	background-color: rgb(240, 147, 147);
+}
+.geoespacial {
+		background-color: rgb(19, 143, 245);
+}	
+.duv {
+	background-color: rgb(148, 241, 184);
+}
+.imagemoutras {
+	width: 10%
+}
+p 	{
+	font-size: 20px;
+}
+
+.materias{
+	width: 1040px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+.materias li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 50px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 100px;
+}
+.materias img {
+	width: 150px;
+	height: 150px;
+}
+
+.materias a {
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding: 30px 20px;
+	color: red;
+}
+
+.link{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.link li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.link a {
+	display: block;
+	text-align: center;
+	padding: 30px 20px;
+	color: red;
+}
+
+.ilusao {
+	margin: 0 auto;
+}
+
+.ilusao li {
+	display: inline-block;
+	margin: 0 0%;
+	width: 165px;
+   	
+}
+
+footer {
+	text-align: center;
+	background: url(logos/back.avif);
+	padding: 40px;
+	color: palevioletred;
+}
+
+
+footer p {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	box-shadow: inset 0 0 30px #000000;
+
+}
+
+
+.logofooter {
+	opacity: 0.7;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px #000000, -10px -10px red, -20px 20px -20px rgba(255,0,0,0.5);
+}
+
+.mainduv {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form {
+	margin: 40px 0;
+	font-weight: 900;
+	font-size: 30px;
+	color: rgb(0, 0, 0)
+}
+
+form label, form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input {
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+form div p {
+	text-align: center;
+}
+
+form div {
+	padding: 10px 20px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: salmon;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: grab;
+}
+
+
+.m-mapa {
+	background-color: burlywood;
+	padding: 2%;
+	box-shadow: inset 0 0 30px #000000;
+	background: linear-gradient(burlywood,violet);
+}
+.video {
+	padding: 1%;
+	box-shadow: inset 0 0 30px #ffc400b6;
+	background: radial-gradient(burlywood,violet);
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		background: red;
+	}
+	
+}
+
